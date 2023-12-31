@@ -1,4 +1,4 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/proxy/utils/Initializable.sol";
 import "../libraries/DSMath.sol";

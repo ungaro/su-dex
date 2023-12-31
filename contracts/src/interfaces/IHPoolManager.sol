@@ -1,4 +1,4 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 interface IHPoolManager {
     function isHPoolToken(address hPoolToken) external view returns (bool);

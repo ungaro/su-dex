@@ -1,4 +1,4 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 interface IVPoolManager {
     function isVPoolToken(address vPoolToken) external view returns (bool);

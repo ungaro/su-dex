@@ -1,4 +1,4 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 interface IOrderbookConfiguration {
     function hordToken() external view returns(address);

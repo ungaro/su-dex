@@ -17,7 +17,7 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 import "./libraries/DSMath.sol";
 import "./system/OrderBookUpgradable.sol";
@@ -27,8 +27,8 @@ import "./interfaces/IERC20.sol";
 import "./interfaces/IHPoolManager.sol";
 import "./interfaces/IVPoolManager.sol";
 import "./interfaces/IHordTreasury.sol";
-import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol";
 
 
 contract EventfulMarket {

@@ -3,7 +3,7 @@
 // information on the server side, but we can also use a support contract to save on the number of queries.
 // The MakerOtcSupportsMethods contract provides an easy way to list all the pending orders in a
 // single call, considerably speeding the request.
-pragma solidity 0.8.10;
+pragma solidity ^0.8.20;
 
 import "./libraries/DSMath.sol";
 import "./interfaces/IOtc.sol";
