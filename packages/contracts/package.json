@@ -1,0 +1,12 @@
+{
+    "name": "contracts",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "ungaro",
+    "scripts": {
+      "build": "forge build",
+      "deploy": "./deploy"
+    },
+    "dependencies": {}
+  }

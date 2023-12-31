@@ -1,0 +1,731 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "getBestOffer",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "getWorseOffer",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "offers",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "pay_amt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "pay_gem",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "buy_amt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "buy_gem",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint64",
+          "name": "timestamp",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getBestOffer(address,address)": "0374fc6f",
+    "getWorseOffer(uint256)": "943911bc",
+    "offers(uint256)": "8a72ea6a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getBestOffer\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"getWorseOffer\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"offers\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"pay_amt\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"pay_gem\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"buy_amt\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"buy_gem\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint64\",\"name\":\"timestamp\",\"type\":\"uint64\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IOtc.sol\":\"IOtc\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/interfaces/IOtc.sol\":{\"keccak256\":\"0xc1047d0394f65de81bbe84c53e51dc7fc8c984d020fa39aa5ffeff701598a789\",\"urls\":[\"bzz-raw://17d3a33734ec029f9439647ee292f553329d0c235ad1d542180d147fc1c8fa5f\",\"dweb:/ipfs/QmbLXgKBRFMY5Gi6NoPQPeABusxv2xWfqTHfMPgx1WNoDw\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getBestOffer",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getWorseOffer",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "offers",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "pay_amt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "pay_gem",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "buy_amt",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "buy_gem",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "uint64",
+              "name": "timestamp",
+              "type": "uint64"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IOtc.sol": "IOtc"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IOtc.sol": {
+        "keccak256": "0xc1047d0394f65de81bbe84c53e51dc7fc8c984d020fa39aa5ffeff701598a789",
+        "urls": [
+          "bzz-raw://17d3a33734ec029f9439647ee292f553329d0c235ad1d542180d147fc1c8fa5f",
+          "dweb:/ipfs/QmbLXgKBRFMY5Gi6NoPQPeABusxv2xWfqTHfMPgx1WNoDw"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IOtc.sol",
+    "id": 45784,
+    "exportedSymbols": {
+      "IOtc": [
+        45783
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:487:34",
+    "nodes": [
+      {
+        "id": 45748,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:34",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 45783,
+        "nodeType": "ContractDefinition",
+        "src": "26:461:34",
+        "nodes": [
+          {
+            "id": 45761,
+            "nodeType": "StructDefinition",
+            "src": "55:234:34",
+            "nodes": [],
+            "canonicalName": "IOtc.OfferInfo",
+            "members": [
+              {
+                "constant": false,
+                "id": 45750,
+                "mutability": "mutable",
+                "name": "pay_amt",
+                "nameLocation": "100:7:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "82:25:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45749,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "82:4:34",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45752,
+                "mutability": "mutable",
+                "name": "pay_gem",
+                "nameLocation": "135:7:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "117:25:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45751,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "117:7:34",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45754,
+                "mutability": "mutable",
+                "name": "buy_amt",
+                "nameLocation": "170:7:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "152:25:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45753,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "152:4:34",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45756,
+                "mutability": "mutable",
+                "name": "buy_gem",
+                "nameLocation": "205:7:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "187:25:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45755,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "187:7:34",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45758,
+                "mutability": "mutable",
+                "name": "owner",
+                "nameLocation": "240:5:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "222:23:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45757,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "222:7:34",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45760,
+                "mutability": "mutable",
+                "name": "timestamp",
+                "nameLocation": "273:9:34",
+                "nodeType": "VariableDeclaration",
+                "scope": 45761,
+                "src": "255:27:34",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint64",
+                  "typeString": "uint64"
+                },
+                "typeName": {
+                  "id": 45759,
+                  "name": "uint64",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "255:6:34",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint64",
+                    "typeString": "uint64"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "OfferInfo",
+            "nameLocation": "62:9:34",
+            "scope": 45783,
+            "visibility": "public"
+          },
+          {
+            "id": 45766,
+            "nodeType": "VariableDeclaration",
+            "src": "294:41:34",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8a72ea6a",
+            "mutability": "mutable",
+            "name": "offers",
+            "nameLocation": "329:6:34",
+            "scope": 45783,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_OfferInfo_$45761_storage_$",
+              "typeString": "mapping(uint256 => struct IOtc.OfferInfo)"
+            },
+            "typeName": {
+              "id": 45765,
+              "keyName": "",
+              "keyNameLocation": "-1:-1:-1",
+              "keyType": {
+                "id": 45762,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "303:4:34",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "294:27:34",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_OfferInfo_$45761_storage_$",
+                "typeString": "mapping(uint256 => struct IOtc.OfferInfo)"
+              },
+              "valueName": "",
+              "valueNameLocation": "-1:-1:-1",
+              "valueType": {
+                "id": 45764,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 45763,
+                  "name": "OfferInfo",
+                  "nameLocations": [
+                    "311:9:34"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 45761,
+                  "src": "311:9:34"
+                },
+                "referencedDeclaration": 45761,
+                "src": "311:9:34",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_OfferInfo_$45761_storage_ptr",
+                  "typeString": "struct IOtc.OfferInfo"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 45775,
+            "nodeType": "FunctionDefinition",
+            "src": "341:75:34",
+            "nodes": [],
+            "functionSelector": "0374fc6f",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getBestOffer",
+            "nameLocation": "350:12:34",
+            "parameters": {
+              "id": 45771,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45768,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45775,
+                  "src": "363:7:34",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 45767,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "363:7:34",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 45770,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45775,
+                  "src": "372:7:34",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 45769,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "372:7:34",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "362:18:34"
+            },
+            "returnParameters": {
+              "id": 45774,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45773,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45775,
+                  "src": "410:4:34",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 45772,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "410:4:34",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "409:6:34"
+            },
+            "scope": 45783,
+            "stateMutability": "view",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 45782,
+            "nodeType": "FunctionDefinition",
+            "src": "421:64:34",
+            "nodes": [],
+            "functionSelector": "943911bc",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getWorseOffer",
+            "nameLocation": "430:13:34",
+            "parameters": {
+              "id": 45778,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45777,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45782,
+                  "src": "444:4:34",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 45776,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "444:4:34",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "443:6:34"
+            },
+            "returnParameters": {
+              "id": 45781,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45780,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45782,
+                  "src": "479:4:34",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 45779,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "479:4:34",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "478:6:34"
+            },
+            "scope": 45783,
+            "stateMutability": "view",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "IOtc",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          45783
+        ],
+        "name": "IOtc",
+        "nameLocation": "44:4:34",
+        "scope": 45784,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 34
+}

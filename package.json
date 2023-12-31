@@ -1,0 +1,19 @@
+{
+    "name": "su-dex",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": {
+      "packages": [
+        "packages/contracts",
+        "packages/frontend"
+      ]
+    },
+    "scripts": {
+        "fe:dev": "yarn workspace frontend dev",
+        "fe:build": "yarn workspace frontend build",
+        "fe:start": "yarn workspace frontend start",
+        "fe:lint": "yarn workspace frontend lint",
+        "contracts:build": "yarn workspace contracts build",
+        "contracts:deploy": "yarn workspace contracts deploy"
+    }
+}

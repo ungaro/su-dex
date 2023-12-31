@@ -1,0 +1,241 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_address",
+          "type": "address"
+        }
+      ],
+      "name": "isMaintainer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "isMaintainer(address)": "dd57366a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_address\",\"type\":\"address\"}],\"name\":\"isMaintainer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IMaintainersRegistry.sol\":\"IMaintainersRegistry\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/interfaces/IMaintainersRegistry.sol\":{\"keccak256\":\"0x0bc01ddda57f5f53bba0d90b49a802951af64ad2c1da0bd61a207c52b56f6c05\",\"urls\":[\"bzz-raw://0bbf0ada049816395f79d815df740c1bcf9cb872c020ca13096bedac5f3b32d3\",\"dweb:/ipfs/Qmd4WQZ2wtGWfLLWEH2KK4JH4vPu72G8dzmz6kgdTfFgEE\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_address",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "isMaintainer",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IMaintainersRegistry.sol": "IMaintainersRegistry"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IMaintainersRegistry.sol": {
+        "keccak256": "0x0bc01ddda57f5f53bba0d90b49a802951af64ad2c1da0bd61a207c52b56f6c05",
+        "urls": [
+          "bzz-raw://0bbf0ada049816395f79d815df740c1bcf9cb872c020ca13096bedac5f3b32d3",
+          "dweb:/ipfs/Qmd4WQZ2wtGWfLLWEH2KK4JH4vPu72G8dzmz6kgdTfFgEE"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IMaintainersRegistry.sol",
+    "id": 45708,
+    "exportedSymbols": {
+      "IMaintainersRegistry": [
+        45707
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:135:32",
+    "nodes": [
+      {
+        "id": 45699,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:32",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 45707,
+        "nodeType": "ContractDefinition",
+        "src": "26:108:32",
+        "nodes": [
+          {
+            "id": 45706,
+            "nodeType": "FunctionDefinition",
+            "src": "63:69:32",
+            "nodes": [],
+            "functionSelector": "dd57366a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isMaintainer",
+            "nameLocation": "72:12:32",
+            "parameters": {
+              "id": 45702,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45701,
+                  "mutability": "mutable",
+                  "name": "_address",
+                  "nameLocation": "93:8:32",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45706,
+                  "src": "85:16:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 45700,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "85:7:32",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "84:18:32"
+            },
+            "returnParameters": {
+              "id": 45705,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45704,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45706,
+                  "src": "126:4:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 45703,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "126:4:32",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "125:6:32"
+            },
+            "scope": 45707,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IMaintainersRegistry",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          45707
+        ],
+        "name": "IMaintainersRegistry",
+        "nameLocation": "36:20:32",
+        "scope": 45708,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 32
+}

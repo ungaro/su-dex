@@ -1,0 +1,237 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "depositToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "depositToken(address,uint256)": "338b5dea"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"depositToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IHordTreasury.sol\":\"IHordTreasury\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/interfaces/IHordTreasury.sol\":{\"keccak256\":\"0x36258a46a8774c43ac51c517223b2795f2eb2c333e178b36c2fde3b0fe84c1ed\",\"urls\":[\"bzz-raw://53e8f4a00e2b0e672acfbf40dbef8bc6a7cf98d30397da3565642e831b62700e\",\"dweb:/ipfs/QmUH1T3r2wx6MXpPKDVEeRCPJyn1VkERGRTwCx84xUhCJX\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "depositToken"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IHordTreasury.sol": "IHordTreasury"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IHordTreasury.sol": {
+        "keccak256": "0x36258a46a8774c43ac51c517223b2795f2eb2c333e178b36c2fde3b0fe84c1ed",
+        "urls": [
+          "bzz-raw://53e8f4a00e2b0e672acfbf40dbef8bc6a7cf98d30397da3565642e831b62700e",
+          "dweb:/ipfs/QmUH1T3r2wx6MXpPKDVEeRCPJyn1VkERGRTwCx84xUhCJX"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IHordTreasury.sol",
+    "id": 45698,
+    "exportedSymbols": {
+      "IHordTreasury": [
+        45697
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:121:31",
+    "nodes": [
+      {
+        "id": 45689,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:31",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 45697,
+        "nodeType": "ContractDefinition",
+        "src": "26:94:31",
+        "nodes": [
+          {
+            "id": 45696,
+            "nodeType": "FunctionDefinition",
+            "src": "56:62:31",
+            "nodes": [],
+            "functionSelector": "338b5dea",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "depositToken",
+            "nameLocation": "65:12:31",
+            "parameters": {
+              "id": 45694,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45691,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "86:5:31",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45696,
+                  "src": "78:13:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 45690,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "78:7:31",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 45693,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "101:6:31",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45696,
+                  "src": "93:14:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 45692,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "93:7:31",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "77:31:31"
+            },
+            "returnParameters": {
+              "id": 45695,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "117:0:31"
+            },
+            "scope": 45697,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IHordTreasury",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          45697
+        ],
+        "name": "IHordTreasury",
+        "nameLocation": "36:13:31",
+        "scope": 45698,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 31
+}

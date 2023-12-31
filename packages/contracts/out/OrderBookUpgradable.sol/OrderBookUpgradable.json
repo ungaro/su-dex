@@ -1,0 +1,1116 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "hordCongress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "maintainersRegistry",
+      "outputs": [
+        {
+          "internalType": "contract IMaintainersRegistry",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b5060ad8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80636a8f414f146037578063d2e69e47146065575b600080fd5b6000546049906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6001546049906001600160a01b03168156fea26469706673582212206e0c6098da118d23ac0a6d986ee150da47f2c09548c058b636b6ff8ccdbbe3a864736f6c63430008170033",
+    "sourceMap": "76:830:43:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80636a8f414f146037578063d2e69e47146065575b600080fd5b6000546049906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6001546049906001600160a01b03168156fea26469706673582212206e0c6098da118d23ac0a6d986ee150da47f2c09548c058b636b6ff8ccdbbe3a864736f6c63430008170033",
+    "sourceMap": "76:830:43:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;112:27;;;;;-1:-1:-1;;;;;112:27:43;;;;;;-1:-1:-1;;;;;178:32:44;;;160:51;;148:2;133:18;112:27:43;;;;;;;145:47;;;;;-1:-1:-1;;;;;145:47:43;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "hordCongress()": "6a8f414f",
+    "maintainersRegistry()": "d2e69e47"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"hordCongress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"maintainersRegistry\",\"outputs\":[{\"internalType\":\"contract IMaintainersRegistry\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/system/OrderBookUpgradable.sol\":\"OrderBookUpgradable\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/interfaces/IMaintainersRegistry.sol\":{\"keccak256\":\"0x0bc01ddda57f5f53bba0d90b49a802951af64ad2c1da0bd61a207c52b56f6c05\",\"urls\":[\"bzz-raw://0bbf0ada049816395f79d815df740c1bcf9cb872c020ca13096bedac5f3b32d3\",\"dweb:/ipfs/Qmd4WQZ2wtGWfLLWEH2KK4JH4vPu72G8dzmz6kgdTfFgEE\"]},\"src/system/OrderBookUpgradable.sol\":{\"keccak256\":\"0x14b61bebf72792e02499596b82d40562e253acd5ec1e5601a57df125462976ec\",\"urls\":[\"bzz-raw://63bc25b29172d8b418fbcbfbc428a246dda293221b7830dbd776f2f44604511b\",\"dweb:/ipfs/QmSxVQMNdk1N8ofu3WBrvSMpaFQqhHnHHY7cTST9Vi1Erh\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "hordCongress",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "maintainersRegistry",
+          "outputs": [
+            {
+              "internalType": "contract IMaintainersRegistry",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/system/OrderBookUpgradable.sol": "OrderBookUpgradable"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IMaintainersRegistry.sol": {
+        "keccak256": "0x0bc01ddda57f5f53bba0d90b49a802951af64ad2c1da0bd61a207c52b56f6c05",
+        "urls": [
+          "bzz-raw://0bbf0ada049816395f79d815df740c1bcf9cb872c020ca13096bedac5f3b32d3",
+          "dweb:/ipfs/Qmd4WQZ2wtGWfLLWEH2KK4JH4vPu72G8dzmz6kgdTfFgEE"
+        ],
+        "license": null
+      },
+      "src/system/OrderBookUpgradable.sol": {
+        "keccak256": "0x14b61bebf72792e02499596b82d40562e253acd5ec1e5601a57df125462976ec",
+        "urls": [
+          "bzz-raw://63bc25b29172d8b418fbcbfbc428a246dda293221b7830dbd776f2f44604511b",
+          "dweb:/ipfs/QmSxVQMNdk1N8ofu3WBrvSMpaFQqhHnHHY7cTST9Vi1Erh"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/system/OrderBookUpgradable.sol",
+    "id": 47437,
+    "exportedSymbols": {
+      "IMaintainersRegistry": [
+        45707
+      ],
+      "OrderBookUpgradable": [
+        47436
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:907:43",
+    "nodes": [
+      {
+        "id": 47366,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:43",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 47367,
+        "nodeType": "ImportDirective",
+        "src": "26:48:43",
+        "nodes": [],
+        "absolutePath": "src/interfaces/IMaintainersRegistry.sol",
+        "file": "../interfaces/IMaintainersRegistry.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 47437,
+        "sourceUnit": 45708,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 47436,
+        "nodeType": "ContractDefinition",
+        "src": "76:830:43",
+        "nodes": [
+          {
+            "id": 47369,
+            "nodeType": "VariableDeclaration",
+            "src": "112:27:43",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "6a8f414f",
+            "mutability": "mutable",
+            "name": "hordCongress",
+            "nameLocation": "127:12:43",
+            "scope": 47436,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 47368,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "112:7:43",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 47372,
+            "nodeType": "VariableDeclaration",
+            "src": "145:47:43",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "d2e69e47",
+            "mutability": "mutable",
+            "name": "maintainersRegistry",
+            "nameLocation": "173:19:43",
+            "scope": 47436,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+              "typeString": "contract IMaintainersRegistry"
+            },
+            "typeName": {
+              "id": 47371,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 47370,
+                "name": "IMaintainersRegistry",
+                "nameLocations": [
+                  "145:20:43"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 45707,
+                "src": "145:20:43"
+              },
+              "referencedDeclaration": 45707,
+              "src": "145:20:43",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+                "typeString": "contract IMaintainersRegistry"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 47385,
+            "nodeType": "ModifierDefinition",
+            "src": "199:139:43",
+            "nodes": [],
+            "body": {
+              "id": 47384,
+              "nodeType": "Block",
+              "src": "223:115:43",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "expression": {
+                              "id": 47377,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": -15,
+                              "src": "274:3:43",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 47378,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "278:6:43",
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "274:10:43",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "expression": {
+                            "id": 47375,
+                            "name": "maintainersRegistry",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 47372,
+                            "src": "241:19:43",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+                              "typeString": "contract IMaintainersRegistry"
+                            }
+                          },
+                          "id": 47376,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "261:12:43",
+                          "memberName": "isMaintainer",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 45706,
+                          "src": "241:32:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
+                            "typeString": "function (address) view external returns (bool)"
+                          }
+                        },
+                        "id": 47379,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "241:44:43",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "52657374726963746564206f6e6c7920746f206d61696e7461696e65722e",
+                        "id": 47380,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "287:32:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_89a2136f4ec2c29d9babd85aa6a3de4eb8a18c51da866a570929f5e2e6e8217e",
+                          "typeString": "literal_string \"Restricted only to maintainer.\""
+                        },
+                        "value": "Restricted only to maintainer."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_89a2136f4ec2c29d9babd85aa6a3de4eb8a18c51da866a570929f5e2e6e8217e",
+                          "typeString": "literal_string \"Restricted only to maintainer.\""
+                        }
+                      ],
+                      "id": 47374,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "233:7:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 47381,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "233:87:43",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47382,
+                  "nodeType": "ExpressionStatement",
+                  "src": "233:87:43"
+                },
+                {
+                  "id": 47383,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "330:1:43"
+                }
+              ]
+            },
+            "name": "onlyMaintainer",
+            "nameLocation": "208:14:43",
+            "parameters": {
+              "id": 47373,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "223:0:43"
+            },
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 47397,
+            "nodeType": "ModifierDefinition",
+            "src": "344:125:43",
+            "nodes": [],
+            "body": {
+              "id": 47396,
+              "nodeType": "Block",
+              "src": "370:99:43",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 47391,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "expression": {
+                            "id": 47388,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -15,
+                            "src": "388:3:43",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 47389,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "392:6:43",
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "src": "388:10:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "id": 47390,
+                          "name": "hordCongress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 47369,
+                          "src": "402:12:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "388:26:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "52657374726963746564206f6e6c7920746f20486f7264436f6e67726573732e",
+                        "id": 47392,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "416:34:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_65c0e6855cc6d69972bb97ceb224fcc2c86cdbd4099aedbc2b735fb2f1190169",
+                          "typeString": "literal_string \"Restricted only to HordCongress.\""
+                        },
+                        "value": "Restricted only to HordCongress."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_65c0e6855cc6d69972bb97ceb224fcc2c86cdbd4099aedbc2b735fb2f1190169",
+                          "typeString": "literal_string \"Restricted only to HordCongress.\""
+                        }
+                      ],
+                      "id": 47387,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "380:7:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 47393,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "380:71:43",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47394,
+                  "nodeType": "ExpressionStatement",
+                  "src": "380:71:43"
+                },
+                {
+                  "id": 47395,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "461:1:43"
+                }
+              ]
+            },
+            "name": "onlyHordCongress",
+            "nameLocation": "353:16:43",
+            "parameters": {
+              "id": 47386,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "370:0:43"
+            },
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "id": 47435,
+            "nodeType": "FunctionDefinition",
+            "src": "475:428:43",
+            "nodes": [],
+            "body": {
+              "id": 47434,
+              "nodeType": "Block",
+              "src": "602:301:43",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 47410,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 47405,
+                          "name": "_hordCongress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 47399,
+                          "src": "620:13:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "!=",
+                        "rightExpression": {
+                          "arguments": [
+                            {
+                              "hexValue": "30",
+                              "id": 47408,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "645:1:43",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              }
+                            ],
+                            "id": 47407,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "nodeType": "ElementaryTypeNameExpression",
+                            "src": "637:7:43",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_address_$",
+                              "typeString": "type(address)"
+                            },
+                            "typeName": {
+                              "id": 47406,
+                              "name": "address",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "637:7:43",
+                              "typeDescriptions": {}
+                            }
+                          },
+                          "id": 47409,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "typeConversion",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "637:10:43",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "620:27:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "486f726420636f6e67726573732063616e2774206265203078302061646472657373",
+                        "id": 47411,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "649:36:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_7948bc7716a6c2563c09d9f45f3cd549d89d9969c4fd4b948e6c9e199182db41",
+                          "typeString": "literal_string \"Hord congress can't be 0x0 address\""
+                        },
+                        "value": "Hord congress can't be 0x0 address"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_7948bc7716a6c2563c09d9f45f3cd549d89d9969c4fd4b948e6c9e199182db41",
+                          "typeString": "literal_string \"Hord congress can't be 0x0 address\""
+                        }
+                      ],
+                      "id": 47404,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "612:7:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 47412,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "612:74:43",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47413,
+                  "nodeType": "ExpressionStatement",
+                  "src": "612:74:43"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 47420,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 47415,
+                          "name": "_maintainersRegistry",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 47401,
+                          "src": "704:20:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "!=",
+                        "rightExpression": {
+                          "arguments": [
+                            {
+                              "hexValue": "30",
+                              "id": 47418,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "736:1:43",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              }
+                            ],
+                            "id": 47417,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "nodeType": "ElementaryTypeNameExpression",
+                            "src": "728:7:43",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_address_$",
+                              "typeString": "type(address)"
+                            },
+                            "typeName": {
+                              "id": 47416,
+                              "name": "address",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "728:7:43",
+                              "typeDescriptions": {}
+                            }
+                          },
+                          "id": 47419,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "typeConversion",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "728:10:43",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "704:34:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4d61696e7461696e6572732072656773697472792063616e2774206265203078302061646472657373",
+                        "id": 47421,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "740:43:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_7b97795734869b13daae5875e9e2a38da2f6dfb5f709e1fd5bfc99c2c5318027",
+                          "typeString": "literal_string \"Maintainers regsitry can't be 0x0 address\""
+                        },
+                        "value": "Maintainers regsitry can't be 0x0 address"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_7b97795734869b13daae5875e9e2a38da2f6dfb5f709e1fd5bfc99c2c5318027",
+                          "typeString": "literal_string \"Maintainers regsitry can't be 0x0 address\""
+                        }
+                      ],
+                      "id": 47414,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "696:7:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 47422,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "696:88:43",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47423,
+                  "nodeType": "ExpressionStatement",
+                  "src": "696:88:43"
+                },
+                {
+                  "expression": {
+                    "id": 47426,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 47424,
+                      "name": "hordCongress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 47369,
+                      "src": "794:12:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 47425,
+                      "name": "_hordCongress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 47399,
+                      "src": "809:13:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "794:28:43",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 47427,
+                  "nodeType": "ExpressionStatement",
+                  "src": "794:28:43"
+                },
+                {
+                  "expression": {
+                    "id": 47432,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 47428,
+                      "name": "maintainersRegistry",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 47372,
+                      "src": "832:19:43",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+                        "typeString": "contract IMaintainersRegistry"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 47430,
+                          "name": "_maintainersRegistry",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 47401,
+                          "src": "875:20:43",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 47429,
+                        "name": "IMaintainersRegistry",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 45707,
+                        "src": "854:20:43",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_IMaintainersRegistry_$45707_$",
+                          "typeString": "type(contract IMaintainersRegistry)"
+                        }
+                      },
+                      "id": 47431,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "854:42:43",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+                        "typeString": "contract IMaintainersRegistry"
+                      }
+                    },
+                    "src": "832:64:43",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IMaintainersRegistry_$45707",
+                      "typeString": "contract IMaintainersRegistry"
+                    }
+                  },
+                  "id": 47433,
+                  "nodeType": "ExpressionStatement",
+                  "src": "832:64:43"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setCongressAndMaintainers",
+            "nameLocation": "484:25:43",
+            "parameters": {
+              "id": 47402,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 47399,
+                  "mutability": "mutable",
+                  "name": "_hordCongress",
+                  "nameLocation": "527:13:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47435,
+                  "src": "519:21:43",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47398,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "519:7:43",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 47401,
+                  "mutability": "mutable",
+                  "name": "_maintainersRegistry",
+                  "nameLocation": "558:20:43",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47435,
+                  "src": "550:28:43",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47400,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "550:7:43",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "509:75:43"
+            },
+            "returnParameters": {
+              "id": 47403,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "602:0:43"
+            },
+            "scope": 47436,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "OrderBookUpgradable",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          47436
+        ],
+        "name": "OrderBookUpgradable",
+        "nameLocation": "85:19:43",
+        "scope": 47437,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 43
+}

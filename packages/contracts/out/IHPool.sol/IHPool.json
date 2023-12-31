@@ -1,0 +1,711 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "hPool",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "championAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "hPoolImplementation",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "baseAsset",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalBaseAssetAtLaunch",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "hPoolId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "bePoolId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "initialPoolWorthUSD",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "availableToClaimChampionSuccessFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalChampionSuccessFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "availableToClaimProtocolFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalProtocolFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalDeposit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "isHPoolEnded",
+              "type": "bool"
+            }
+          ],
+          "internalType": "struct IHPool.HPoolInfo",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "hPool()": "9e36006f"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"hPool\",\"outputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"championAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"hPoolImplementation\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"baseAsset\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"totalBaseAssetAtLaunch\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"hPoolId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"bePoolId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"initialPoolWorthUSD\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"availableToClaimChampionSuccessFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalChampionSuccessFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"availableToClaimProtocolFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalProtocolFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDeposit\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"isHPoolEnded\",\"type\":\"bool\"}],\"internalType\":\"struct IHPool.HPoolInfo\",\"name\":\"\",\"type\":\"tuple\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IHPool.sol\":\"IHPool\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/interfaces/IHPool.sol\":{\"keccak256\":\"0xe0177ea673cc5d97424d0a19df9efffc2cfb8bf6a3c47dd191c513f9e7496a30\",\"urls\":[\"bzz-raw://7aa6a5df9b6d1dad755d113544b667d669986525cda0d913c7b1743f2d6389e8\",\"dweb:/ipfs/QmSWH4JV1Eocz7my4X1DbLmikeKW1mGcLezpbe5n1YsJre\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "hPool",
+          "outputs": [
+            {
+              "internalType": "struct IHPool.HPoolInfo",
+              "name": "",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "championAddress",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "hPoolImplementation",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "baseAsset",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "totalBaseAssetAtLaunch",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "hPoolId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "bePoolId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "initialPoolWorthUSD",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "availableToClaimChampionSuccessFee",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "totalChampionSuccessFee",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "availableToClaimProtocolFee",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "totalProtocolFee",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "totalDeposit",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bool",
+                  "name": "isHPoolEnded",
+                  "type": "bool"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IHPool.sol": "IHPool"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IHPool.sol": {
+        "keccak256": "0xe0177ea673cc5d97424d0a19df9efffc2cfb8bf6a3c47dd191c513f9e7496a30",
+        "urls": [
+          "bzz-raw://7aa6a5df9b6d1dad755d113544b667d669986525cda0d913c7b1743f2d6389e8",
+          "dweb:/ipfs/QmSWH4JV1Eocz7my4X1DbLmikeKW1mGcLezpbe5n1YsJre"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IHPool.sol",
+    "id": 45649,
+    "exportedSymbols": {
+      "IHPool": [
+        45648
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:587:29",
+    "nodes": [
+      {
+        "id": 45614,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:29",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 45648,
+        "nodeType": "ContractDefinition",
+        "src": "26:561:29",
+        "nodes": [
+          {
+            "id": 45641,
+            "nodeType": "StructDefinition",
+            "src": "49:478:29",
+            "nodes": [],
+            "canonicalName": "IHPool.HPoolInfo",
+            "members": [
+              {
+                "constant": false,
+                "id": 45616,
+                "mutability": "mutable",
+                "name": "championAddress",
+                "nameLocation": "84:15:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "76:23:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45615,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "76:7:29",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45618,
+                "mutability": "mutable",
+                "name": "hPoolImplementation",
+                "nameLocation": "117:19:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "109:27:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45617,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:7:29",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45620,
+                "mutability": "mutable",
+                "name": "baseAsset",
+                "nameLocation": "154:9:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "146:17:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 45619,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "146:7:29",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45622,
+                "mutability": "mutable",
+                "name": "totalBaseAssetAtLaunch",
+                "nameLocation": "181:22:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "173:30:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45621,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "173:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45624,
+                "mutability": "mutable",
+                "name": "hPoolId",
+                "nameLocation": "221:7:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "213:15:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45623,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "213:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45626,
+                "mutability": "mutable",
+                "name": "bePoolId",
+                "nameLocation": "246:8:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "238:16:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45625,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "238:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45628,
+                "mutability": "mutable",
+                "name": "initialPoolWorthUSD",
+                "nameLocation": "272:19:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "264:27:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45627,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "264:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45630,
+                "mutability": "mutable",
+                "name": "availableToClaimChampionSuccessFee",
+                "nameLocation": "309:34:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "301:42:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45629,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "301:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45632,
+                "mutability": "mutable",
+                "name": "totalChampionSuccessFee",
+                "nameLocation": "361:23:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "353:31:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45631,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "353:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45634,
+                "mutability": "mutable",
+                "name": "availableToClaimProtocolFee",
+                "nameLocation": "402:27:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "394:35:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45633,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "394:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45636,
+                "mutability": "mutable",
+                "name": "totalProtocolFee",
+                "nameLocation": "447:16:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "439:24:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45635,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "439:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45638,
+                "mutability": "mutable",
+                "name": "totalDeposit",
+                "nameLocation": "481:12:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "473:20:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 45637,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "473:7:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 45640,
+                "mutability": "mutable",
+                "name": "isHPoolEnded",
+                "nameLocation": "508:12:29",
+                "nodeType": "VariableDeclaration",
+                "scope": 45641,
+                "src": "503:17:29",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 45639,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "503:4:29",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "HPoolInfo",
+            "nameLocation": "56:9:29",
+            "scope": 45648,
+            "visibility": "public"
+          },
+          {
+            "id": 45647,
+            "nodeType": "FunctionDefinition",
+            "src": "532:53:29",
+            "nodes": [],
+            "functionSelector": "9e36006f",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "hPool",
+            "nameLocation": "541:5:29",
+            "parameters": {
+              "id": 45642,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "546:2:29"
+            },
+            "returnParameters": {
+              "id": 45646,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 45645,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45647,
+                  "src": "567:16:29",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_HPoolInfo_$45641_memory_ptr",
+                    "typeString": "struct IHPool.HPoolInfo"
+                  },
+                  "typeName": {
+                    "id": 45644,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 45643,
+                      "name": "HPoolInfo",
+                      "nameLocations": [
+                        "567:9:29"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 45641,
+                      "src": "567:9:29"
+                    },
+                    "referencedDeclaration": 45641,
+                    "src": "567:9:29",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_HPoolInfo_$45641_storage_ptr",
+                      "typeString": "struct IHPool.HPoolInfo"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "566:18:29"
+            },
+            "scope": 45648,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IHPool",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          45648
+        ],
+        "name": "IHPool",
+        "nameLocation": "36:6:29",
+        "scope": 45649,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 29
+}

@@ -1,0 +1,371 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "addVPoolToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "isVPoolToken",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b50610100806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80634c98ab65146037578063a0e884d3146068575b600080fd5b60666042366004609c565b6001600160a01b03166000908152602081905260409020805460ff19166001179055565b005b60886073366004609c565b60006020819052908152604090205460ff1681565b604051901515815260200160405180910390f35b60006020828403121560ad57600080fd5b81356001600160a01b038116811460c357600080fd5b939250505056fea2646970667358221220009b1537b3626a75cb2d92b0009225fd1559cb8902648f47e65a920cbde1a25b64736f6c63430008170033",
+    "sourceMap": "25:177:42:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80634c98ab65146037578063a0e884d3146068575b600080fd5b60666042366004609c565b6001600160a01b03166000908152602081905260409020805460ff19166001179055565b005b60886073366004609c565b60006020819052908152604090205460ff1681565b604051901515815260200160405180910390f35b60006020828403121560ad57600080fd5b81356001600160a01b038116811460c357600080fd5b939250505056fea2646970667358221220009b1537b3626a75cb2d92b0009225fd1559cb8902648f47e65a920cbde1a25b64736f6c63430008170033",
+    "sourceMap": "25:177:42:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;109:90;;;;;;:::i;:::-;-1:-1:-1;;;;;166:19:42;:12;:19;;;;;;;;;;:26;;-1:-1:-1;;166:26:42;188:4;166:26;;;109:90;;;58:44;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;470:14:44;;463:22;445:41;;433:2;418:18;58:44:42;;;;;;;14:286:44;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;;;;220:31:44;;210:42;;200:70;;266:1;263;256:12;200:70;289:5;14:286;-1:-1:-1;;;14:286:44:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "addVPoolToken(address)": "4c98ab65",
+    "isVPoolToken(address)": "a0e884d3"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.23+commit.f704f362\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"addVPoolToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"isVPoolToken\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/mocks/MockVPoolManager.sol\":\"MockVPoolManager\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/mocks/MockVPoolManager.sol\":{\"keccak256\":\"0xf23ba9bf63dbc095c288a68e81bdad6d1ceaf7e3c53bfb835fa2a4c2b3012b50\",\"urls\":[\"bzz-raw://ecf7e8a23b17f1c83bb3f5c65db843293cd80d75d1acb4e85eee434ce0bc1dde\",\"dweb:/ipfs/QmQcTUHN5WhuE7XQC8pfGK2mpioR5vGbJQ72ATz38m9JhX\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.23+commit.f704f362"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "addVPoolToken"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "isVPoolToken",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/mocks/MockVPoolManager.sol": "MockVPoolManager"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/mocks/MockVPoolManager.sol": {
+        "keccak256": "0xf23ba9bf63dbc095c288a68e81bdad6d1ceaf7e3c53bfb835fa2a4c2b3012b50",
+        "urls": [
+          "bzz-raw://ecf7e8a23b17f1c83bb3f5c65db843293cd80d75d1acb4e85eee434ce0bc1dde",
+          "dweb:/ipfs/QmQcTUHN5WhuE7XQC8pfGK2mpioR5vGbJQ72ATz38m9JhX"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/mocks/MockVPoolManager.sol",
+    "id": 47365,
+    "exportedSymbols": {
+      "MockVPoolManager": [
+        47364
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:203:42",
+    "nodes": [
+      {
+        "id": 47347,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:42",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 47364,
+        "nodeType": "ContractDefinition",
+        "src": "25:177:42",
+        "nodes": [
+          {
+            "id": 47351,
+            "nodeType": "VariableDeclaration",
+            "src": "58:44:42",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "a0e884d3",
+            "mutability": "mutable",
+            "name": "isVPoolToken",
+            "nameLocation": "90:12:42",
+            "scope": 47364,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+              "typeString": "mapping(address => bool)"
+            },
+            "typeName": {
+              "id": 47350,
+              "keyName": "",
+              "keyNameLocation": "-1:-1:-1",
+              "keyType": {
+                "id": 47348,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "66:7:42",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "58:24:42",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                "typeString": "mapping(address => bool)"
+              },
+              "valueName": "",
+              "valueNameLocation": "-1:-1:-1",
+              "valueType": {
+                "id": 47349,
+                "name": "bool",
+                "nodeType": "ElementaryTypeName",
+                "src": "77:4:42",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 47363,
+            "nodeType": "FunctionDefinition",
+            "src": "109:90:42",
+            "nodes": [],
+            "body": {
+              "id": 47362,
+              "nodeType": "Block",
+              "src": "156:43:42",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 47360,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "baseExpression": {
+                        "id": 47356,
+                        "name": "isVPoolToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47351,
+                        "src": "166:12:42",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                          "typeString": "mapping(address => bool)"
+                        }
+                      },
+                      "id": 47358,
+                      "indexExpression": {
+                        "id": 47357,
+                        "name": "token",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 47353,
+                        "src": "179:5:42",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "166:19:42",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "74727565",
+                      "id": 47359,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "188:4:42",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "166:26:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 47361,
+                  "nodeType": "ExpressionStatement",
+                  "src": "166:26:42"
+                }
+              ]
+            },
+            "functionSelector": "4c98ab65",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addVPoolToken",
+            "nameLocation": "118:13:42",
+            "parameters": {
+              "id": 47354,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 47353,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "140:5:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47363,
+                  "src": "132:13:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47352,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "132:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "131:15:42"
+            },
+            "returnParameters": {
+              "id": 47355,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "156:0:42"
+            },
+            "scope": 47364,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MockVPoolManager",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          47364
+        ],
+        "name": "MockVPoolManager",
+        "nameLocation": "34:16:42",
+        "scope": 47365,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 42
+}
